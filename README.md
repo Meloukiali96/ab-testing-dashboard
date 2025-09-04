@@ -37,9 +37,15 @@ Files in this Repo
 
 ---
 
-How to Use
-1. Clone this repo:
-   ```bash
-git clone https://github.com/Meloukiali96/ab-testing-dashboard.git
+Core DAX Measures
 
+```DAX
+Total Users = DISTINCTCOUNT(Fact[UserID])
+Total Conversions = CALCULATE(DISTINCTCOUNT(Fact[UserID]), Fact[Converted] = 1)
 
+Conversion Rate = DIVIDE([Total Conversions], [Total Users])
+
+Ad Conversion Rate = CALCULATE([Conversion Rate], Fact[test_group] = "ad")
+PSA Conversion Rate = CALCULATE([Conversion Rate], Fact[test_group] = "psa")
+
+Lift = DIVIDE([Ad Conversion Rate] - [PSA Conversion Rate], [PSA Conversion Rate])
