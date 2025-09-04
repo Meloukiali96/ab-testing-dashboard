@@ -40,6 +40,6 @@ Files in this Repo
 How to Use
 1. Clone this repo:
    ```bash
-   git clone https://github.com/your-username/ab-testing-dashboard.git
+git clone https://github.com/Meloukiali96/ab-testing-dashboard.git
 
 
