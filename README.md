@@ -8,9 +8,9 @@ The project demonstrates skills in **Power BI, DAX, and data storytelling**.
 ---
 
 Tools & Skills
-- **Power BI** for data modeling and dashboard design  
-- **DAX** for calculated measures (Conversion Rates, Lift, Overall CR)   
-- **Data storytelling** to highlight insights for business stakeholders  
+- Power BI for data modeling and dashboard design
+- DAX for calculated measures (Conversion Rates, Lift, Overall CR)
+- Data storytelling to highlight insights for business stakeholders 
 
 ---
 
@@ -33,7 +33,7 @@ Key Insights
 Files in this Repo
 - `ab_test_data.csv` → Dataset used for the analysis  
 - `AB_Testing_Dashboard.pbix` → Power BI dashboard file  
-- `screenshots/` → Dashboard screenshots for quick view  
+- `ab_testing screenshot.jpg` → Dashboard screenshot 
 
 ---
 
@@ -49,3 +49,5 @@ Ad Conversion Rate = CALCULATE([Conversion Rate], Fact[test_group] = "ad")
 PSA Conversion Rate = CALCULATE([Conversion Rate], Fact[test_group] = "psa")
 
 Lift = DIVIDE([Ad Conversion Rate] - [PSA Conversion Rate], [PSA Conversion Rate])
+
+
