@@ -1,5 +1,5 @@
 # A/B Testing Dashboard | Power BI
-
+![Dashboard Overview](AB_Testing_Dashboard.jpg)
 ## 📌 Project Overview
 This project analyzes the results of an A/B test comparing **Ads vs PSAs**.  
 The goal was to measure which campaign performed better in terms of **conversion rates** and overall effectiveness.  
