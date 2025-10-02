@@ -2,7 +2,7 @@
 ![Dashboard Screenshot](ab_testing%20screenshot.jpg)
 ## 📌 Project Overview
 This project analyzes the results of an A/B test comparing **Ads vs PSAs**.  
-The goal was to measure which campaign performed better in terms of **conversion rates** and overall effectiveness.  
+The goal was to measure which campaign performed better in terms of **conversion rates** and Overall effectiveness.  
 The project demonstrates skills in **Power BI, DAX, and data storytelling**.
 
 ---
